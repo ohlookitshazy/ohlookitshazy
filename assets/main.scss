@@ -4,3 +4,26 @@
 
 @import "minima";
 
+body {
+    background: url("./img/ItsHazy_Header.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.site-header {
+    border: 0;
+}
+
+.site-title, .site-title:visited {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Barlow;
+    font-weight: bold;
+}
+
+.site-title:hover {
+    text-decoration: none;
+}
