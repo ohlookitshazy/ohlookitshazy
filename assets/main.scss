@@ -1,7 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-
 @import "minima";
 
 body {
@@ -16,14 +15,37 @@ body {
     border: 0;
 }
 
-.site-title, .site-title:visited {
-    background: white;
+.navbar-brand {
+    background: #F5F5F5;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Barlow;
     font-weight: bold;
+    font-size: 1.9rem;
 }
 
 .site-title:hover {
     text-decoration: none;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+.fab, .fas {
+    color: #F5F5F5;
+    font-size: 1.7rem;
+    margin-left: 15px;
+}
+
+.fas {
+    font-size: 1.3rem;
+}
+
+.navbar-text {
+    color: #F5F5F5 !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #F5F5F5;
 }
