@@ -46,10 +46,40 @@ body {
     color: #F5F5F5 !important;
 }
 
-.navbar-light .navbar-nav .active>.nav-link {
+.navbar-dark .navbar-nav .active>.nav-link {
     color: #F5F5F5;
 }
 
 .nav-links {
     padding-top: 3px;
+}
+
+.fas.fa-hamburger {
+    margin: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background: #383455;
+    }
+    .ml-auto {
+        align-items: center;
+    }
+    
+    .ml-auto li {
+        padding-top: 7.5px;
+        padding-bottom: 7.5px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .ml-auto li:hover {
+        background: rgb(178, 177, 191);
+        transition: ease-in;
+        transition-duration: 0.2s;
+    }
 }
